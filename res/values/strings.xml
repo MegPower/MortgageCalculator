@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mortgage Calculator 2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="purchase_price_text_view">Purchase Price</string>
+    <string name="downpay_text_view">Down Pay.</string>
+    <string name="interest_rate_text_view">Interest Rate</string>
+    <string name="custom_length_string">Yrs of Mortgage</string>
+    <string name="loan_amt_string_text_view">Loan Amt</string>
+    <string name="monthly_payments_string_text_view">Monthly amts</string>
+
+</resources>
