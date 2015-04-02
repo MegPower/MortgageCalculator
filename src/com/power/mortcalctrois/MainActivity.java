@@ -36,6 +36,12 @@ public class MainActivity extends Activity {
 	private TextView loanAmtDisplayTextView;
 	//shows monthly payments total
 	private TextView monthlyAmtDisplayTextView;
+	//shows monthly payment for 10 years
+	private TextView tenYearsAmtDisplayTextView;
+	//shows monthly payment for 20 years
+	private TextView twentyYearsAmtDisplayTextView;
+	//shows monthly payment for 30 years
+	private TextView thirtyYearsAmtDisplayTextView;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +54,9 @@ public class MainActivity extends Activity {
 		interestRateDisplayTextView = (TextView) findViewById(R.id.interestRateDisplayTextView);
 		loanAmtDisplayTextView = (TextView) findViewById(R.id.loanAmtDisplayTextView);
 		monthlyAmtDisplayTextView = (TextView) findViewById(R.id.monthlyAmtDisplayTextView);
-				
+		tenYearsAmtDisplayTextView = (TextView) findViewById(R.id.tenYearsAmtDisplayTextView);
+		twentyYearsAmtDisplayTextView = (TextView) findViewById(R.id.twentyYearsAmtDisplayTextView);
+		thirtyYearsAmtDisplayTextView = (TextView) findViewById(R.id.thirtyYearsAmtDisplayTextView);		
 		//set text watchers for purchase, down, interest
 		EditText purchaseAmtEditText = (EditText) findViewById(R.id.purchaseAmtEditText);
 		purchaseAmtEditText.addTextChangedListener(purchaseAmtTextWatcher);
@@ -84,6 +92,16 @@ public class MainActivity extends Activity {
 		
 		//display monthly payments
 		monthlyAmtDisplayTextView.setText(currencyFormat.format(monthlyPayments));
+		
+		//calculate and display payments for 10, 20, 30 years
+		double tenYears = (customLoanAmt/120 * interestRate);
+		tenYearsAmtDisplayTextView.setText(currencyFormat.format(tenYears));
+		
+		double twentyYears = (customLoanAmt/240) * interestRate;
+		twentyYearsAmtDisplayTextView.setText(currencyFormat.format(twentyYears));
+		
+		double thirtyYears = (customLoanAmt/360) * interestRate;
+		thirtyYearsAmtDisplayTextView.setText(currencyFormat.format(thirtyYears));
 		
 	}
 

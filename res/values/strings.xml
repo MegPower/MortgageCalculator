@@ -10,5 +10,12 @@
     <string name="custom_length_string">Yrs of Mortgage</string>
     <string name="loan_amt_string_text_view">Loan Amt</string>
     <string name="monthly_payments_string_text_view">Monthly amts</string>
+    <string name="ten_years_payments_text">Payments for 10yrs</string>
+    <string name="monthly_payments_text_view">Monthly Payments</string>
+    <string name="years_text_view">Years</string>
+    <string name="amount_text_view">Monthly Payment</string>
+    <string name="ten_years">10</string>
+    <string name="twenty_years">20</string>
+    <string name="thirty_years">30</string>
 
 </resources>

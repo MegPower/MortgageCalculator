@@ -26,7 +26,7 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080010;
+        public static final int action_settings=0x7f080018;
         public static final int customLengthSeekBar=0x7f08000b;
         public static final int customLengthTextView=0x7f08000a;
         public static final int downPayDisplayTextView=0x7f080006;
@@ -43,6 +43,14 @@ public final class R {
         public static final int purchaseAmtDisplayTextView=0x7f080003;
         public static final int purchaseAmtEditText=0x7f080002;
         public static final int purchaseAmtTextView=0x7f080001;
+        public static final int tenYearsAmtDisplayTextView=0x7f080013;
+        public static final int tenYearsTextView=0x7f080012;
+        public static final int thirtyYearsAmtDisplayTextView=0x7f080017;
+        public static final int thirtyYearsTextView=0x7f080016;
+        public static final int twentyYearsAmtDisplayTextView=0x7f080015;
+        public static final int twentyYearsTextView=0x7f080014;
+        public static final int yearsAmtTextView=0x7f080011;
+        public static final int yearsTextView=0x7f080010;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -52,6 +60,7 @@ public final class R {
     }
     public static final class string {
         public static final int action_settings=0x7f050002;
+        public static final int amount_text_view=0x7f05000c;
         public static final int app_name=0x7f050000;
         public static final int custom_length_string=0x7f050006;
         public static final int downpay_text_view=0x7f050004;
@@ -59,7 +68,13 @@ public final class R {
         public static final int interest_rate_text_view=0x7f050005;
         public static final int loan_amt_string_text_view=0x7f050007;
         public static final int monthly_payments_string_text_view=0x7f050008;
+        public static final int monthly_payments_text_view=0x7f05000a;
         public static final int purchase_price_text_view=0x7f050003;
+        public static final int ten_years=0x7f05000d;
+        public static final int ten_years_payments_text=0x7f050009;
+        public static final int thirty_years=0x7f05000f;
+        public static final int twenty_years=0x7f05000e;
+        public static final int years_text_view=0x7f05000b;
     }
     public static final class style {
         /** 

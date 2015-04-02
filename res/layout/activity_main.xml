@@ -136,4 +136,49 @@
         android:padding="@dimen/textview_padding"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
+    <TextView
+        android:id="@+id/yearsTextView"
+        android:layout_gravity="left"
+        android:text="@string/years_text_view"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/yearsAmtTextView"
+        android:layout_gravity="left"
+        android:text="@string/amount_text_view"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tenYearsTextView"
+        android:layout_gravity="left"
+        android:text="@string/ten_years"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tenYearsAmtDisplayTextView"
+        android:layout_gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/twentyYearsTextView"
+        android:layout_gravity="left"
+        android:text="@string/twenty_years"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/twentyYearsAmtDisplayTextView"
+        android:layout_gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/thirtyYearsTextView"
+        android:layout_gravity="left"
+        android:text="@string/thirty_years"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/thirtyYearsAmtDisplayTextView"
+        android:layout_gravity="left"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
 </GridLayout>
